@@ -1,0 +1,20 @@
+public class Sumdigit {
+    int number = 867;     // 5
+   
+    void sumOfDigits() {
+        int sum;
+        for (sum = 0; number != 0; number /= 10) {
+            sum += number % 10;
+        }
+        System.out.println(sum);
+    }
+
+}
+
+class Sumsum {
+    public static void main(String[] args) {
+        Sumdigit demomain = new Sumdigit();
+        demomain.sumOfDigits();
+
+    }
+}
