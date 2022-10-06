@@ -1,0 +1,21 @@
+public class Words {
+    String vovels =" The quick brown fox jumps over the lazy dog.";    // 4
+
+    void countAllWord() {
+        int count = 0;
+        for (int i = 0; i < vovels.length(); i++) {
+
+            if (vovels.charAt(i) == ' ' )
+                count++;
+        }
+        System.out.println( " Number of words in the string " + count);
+    }
+}
+
+class CountWord {
+    public static void main(String[] args) {
+        Words demomain = new Words();
+        demomain.countAllWord();
+
+    }
+}
