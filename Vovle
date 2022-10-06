@@ -1,0 +1,22 @@
+public class Vovle {
+    String vovels =" w3resource";       // 3
+
+    void chart() {
+        int count = 0;
+        for (int i = 0; i < vovels.length(); i++) {
+
+            if (vovels.charAt(i) == 'a' || vovels.charAt(i) == 'o' || vovels.charAt(i) == 'u' || vovels.charAt(i) == 'i' || vovels.charAt(i) == 'e')
+                count++;
+        }
+        System.out.println( "Numbers of vovel in the string " +  count);
+    }
+}
+
+class Vov {
+    public static void main(String[] args) {
+        Vovle chart = new Vovle();
+        chart.chart();
+
+    }
+
+}
